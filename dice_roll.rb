@@ -4,6 +4,7 @@
 
 def roll
   # code goes here
-  dice = rand(1..6)
-  return dice
+  dice = [1,2,3,4,5,6]
+  roll = dice.shuffle
+  return roll[0]
 end
